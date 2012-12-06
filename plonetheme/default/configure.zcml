@@ -1,0 +1,15 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="plonetheme.default">
+
+  <five:registerPackage package="." initialize=".initialize" />
+
+  <five:registerPackage package="." />
+
+  <plone:static directory="classic" name="classic" type="theme" />
+  <plone:static directory="sunburst" name="sunburst" type="theme" />
+    
+</configure>
