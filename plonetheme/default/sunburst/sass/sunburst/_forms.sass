@@ -1,1 +1,188 @@
+/* @group Forms
+
+fieldset, .editionComment
+  line-height: 1.5em
+  margin: 1em 0
+  padding: 0 1em 1em
+  width: auto
+
+/* Emulates the styling from the h1 tag
+
+#content .field input[type="text"][name$=".title"], #archetypes-fieldname-title input
+  font-family: "Helvetica Neue", Arial, FreeSans, sans-serif
+  line-height: 125%
+  color: $baseColor
+  letter-spacing: -0.05em
+  margin: inherit -0.05em
+  font-size: 2em
+  /* 26px equiv
+  font-weight: bold
+
+/* Emulates styling from the description's view
+
+#content .field textarea[name$=".description"], #archetypes-fieldname-description textarea#description
+  font-family: Arial,FreeSans,sans-serif
+  color: $discreetColor
+  font-size: 1.25em
+  font-weight: bold
+
+div.formControls
+  margin: 1em
+
+input
+  &[type="text"]:focus, &[type="password"]:focus
+    background-color: #ffffe0
+
+textarea:focus
+  background-color: #ffffe0
+
+#content
+  textarea
+    font: 100% Monaco, "Courier New", Courier, monospace
+    width: 100%
+  select
+    vertical-align: top
+  fieldset
+    border: 0.1em solid $fieldsetColor
+    border-style: solid none none none
+  legend
+    padding: 0.5em
+    font-size: 85%
+
+label
+  font-weight: bold
+
+#content
+  label
+  optgroup
+    font-style: normal
+    font-weight: bold
+    color: #999
+    padding-left: 0.25em
+  option
+    color: $baseColor
+  optgroup > option
+    padding: 0 0.25em 0 1em
+
+dl.enableFormTabbing dd
+  margin-left: 0
+  padding-top: 2em
+
+.searchSection
+  color: $dateColor
+  margin-top: 0.25em
+  label:hover
+    color: $baseColor
+
+.field
+  clear: both
+  margin-bottom: 1em
+  input[type="text"]
+    width: 20em
+    &[size]
+      width: auto
+    &[name$=".title"]
+      width: 100%
+
+input#title
+  width: 100%
+
+.field.error input[type="text"][name$=".title"], .error input#title
+  width: 99%
+
+.fieldRequired
+  background: url(required.png) center left no-repeat
+  padding: 0 0 0 1em
+  color: White
+
+.fieldUploadFile
+  text-align: right
+  margin-right: 0.75em
+  display: none
+
+.fieldTextFormat
+  text-align: right
+  margin-right: 0.75em
+
+.formHelp
+  color: #555
+  margin: 0 0 0.2em 0
+  display: block
+  font-weight: normal
+
+div.field.error
+  background-color: #fdc
+  border: 1px solid red
+  padding: 0.5em
+  margin: 1em 0
+
+.error .fieldRequired
+  color: #d00
+
+div.error.warning
+  background-color: transparent
+  border: none
+  margin-top: 0
+  padding: 0
+  input
+    border: 2px solid red
+
+input.inputLabelActive
+  color: $dateColor
+
+textarea#form\.description
+  height: 6em
+  width: 99%
+
+table.listing tbody tr.odd
+  &.selected td, &.dragging td
+    background-color: #ffa
+
+tr
+  &.dragging, &.selected
+    background-color: #ffa
+
+table.listing tbody tr.odd.error td, tr.error
+  background-color: #fdc
+
+.multi-widget-field
+  padding-left: 0.5em
+  border-left: 1.5em solid #DDD
+
+.multi-widget-checkbox
+  margin-left: -2em
+  margin-right: 0.5em
+  width: 1.5em
+  display: inline-block
+
+/* @group Login form
+
+body
+  &.template-logged_out #content, &.template-login_form #content
+    text-align: center
+
+.pb-ajax #login-form
+  text-align: center
+
+#fieldset-openid-login input, #login-form input
+  font-size: 150%
+
+body
+  &.template-register #content input, &.template-new-user #content input
+    font-size: 150%
+    width: inherit
+
+#fieldset-openid-login label, #login-form label
+  margin-right: 0.5em
+  padding-top: 0.2em
+  text-align: right
+  width: 10em
+  display: inline-block
+
+#fieldset-openid-login .formControls input, #login-form .formControls input
+  margin-left: 0.25em
+
+/* @end
+
+/* @end
 

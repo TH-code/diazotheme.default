@@ -1,0 +1,57 @@
+// Plone colors
+$ploneBlue: #205c90 !default;
+$ploneGreen: #75ad0a !default;
+
+// Colors
+$bodyBackgroundColor: white !default;
+$mainColor: $ploneBlue !default;
+$secondaryColor: #dddddd !default;
+$discreetColor: #666666 !default;
+$editColor: $ploneGreen !default;
+$linkColor: $mainColor !default;
+$hoverColor: $ploneGreen !default;
+$activeColor: $hoverColor !default;
+$visitedColor: $discreetColor !default;
+$focusColor: $hoverColor !default;
+$linkColors: #{$linkColor, $hoverColor, $activeColor, $visitedColor, $focusColor} !default;
+$dateColor: #76797c !default;
+$fieldsetColor: #329fd7 !default;
+$portalPersonaltoolsBackground: #e3e3e3 !default;
+
+// Measures
+$radius: 0.5em !default;
+
+// Base
+$bodyFontFamily: unquote("Arial, FreeSans, sans-serif") !default;
+$bodyFontSize: 100% !default;
+$bodyLineHeight: 1.125em !default;
+$bodyWidth: auto !default;
+$bodyMargin: 0 !default;
+$baseFontFamily: $bodyFontFamily;
+$baseLineHeight: $bodyLineHeight;
+$baseFontSize: 80% !default;
+$baseHeadingFont: unquote('"Helvetica Neue", Arial, FreeSans, sans-serif') !default;
+$baseFormFont: unquote('"Lucida Grande", Arial, FreeSans, sans-serif') !default;
+$baseBackground: $bodyBackgroundColor !default;
+$baseColor: black !default;
+$baseHeadingColor: #444444 !default;
+$contentFontSize: 80% !default;
+
+// Portlets
+$portletHeaderPadding: 0.42em 1em !default;
+$portletHeaderBackground: $secondaryColor !default;
+
+// Nav portlet
+$navPortletBackgroundColor: $secondaryColor !default;
+$navPortletBorderColor: $secondaryColor !default;
+$navPortletBorderWidth: 0 !default;
+$navPortletBorderStyle: solid !default;
+
+$navPortletCurrentBackgroundColor: $navPortletBackgroundColor !default;
+$navPortletCurrentBorderWidth: 0 0 0 1em !default;
+$navPortletCurrentBorderStyle: $navPortletBorderStyle !default;
+$navPortletCurrentBorderColor: $navPortletBorderColor !default;
+
+$navPortletBorderBottomWidth: 0.1em !default;
+$navPortletBorderBottomStyle: dotted !default;
+$navPortletBorderBottomColor: $navPortletBorderColor !default;
