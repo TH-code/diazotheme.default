@@ -10,14 +10,14 @@ version = '1.0'
 long_description = (
     read('README.txt')
     + '\n' +
-    read('plonetheme', 'h5bp', 'README.txt')
+    read('diazotheme', 'default', 'README.txt')
     + '\n' +
     read('CHANGES.txt')
     + '\n'
     )
 
 setup(
-    name='plonetheme.default',
+    name='diazotheme.default',
     version=version,
     description="The Default themes, Sunburst and Classic turned into Diazo "
                 "themes. (Diazo over unstyled Plone)",
@@ -36,7 +36,7 @@ setup(
     url='https://github.com/TH-code',
     license='GPL',
     packages=find_packages(exclude=['ez_setup']),
-    namespace_packages=['plonetheme'],
+    namespace_packages=['diazotheme'],
     include_package_data=True,
     zip_safe=False,
     install_requires=[
